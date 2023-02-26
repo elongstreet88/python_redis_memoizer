@@ -25,4 +25,6 @@ test.caclulcate_something()
 ```
 
 # Refresh the cache
-`test1.refresh_cache('hello')`
+```
+test1.refresh_cache('hello')
+```
