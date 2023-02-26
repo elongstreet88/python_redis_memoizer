@@ -24,7 +24,7 @@ test = Test()
 test.caclulcate_something()
 ```
 
-# Refresh the cache
+## Refresh the cache
 ```
 test1.refresh_cache('hello')
 ```
