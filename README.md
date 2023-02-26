@@ -15,12 +15,14 @@ test1()
 ```
 
 ## Cache a method
+```
 class Test:
     @cache(expires_seconds=300)
     def caclulcate_something(self, a):
         return 5
 test = Test()
 test.caclulcate_something()
+```
 
 # Refresh the cache
-test1.refresh_cache('hello')
+`test1.refresh_cache('hello')`
